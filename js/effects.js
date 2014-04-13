@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 	new WOW().init();
 
-	$('#about').css({'marginTop': $('.pot').height()+150+'px'});
+	$('#about').css({'marginTop': $('.pot').height()+450+'px'});
 	$('.btn-survey').css({'marginTop': $('.pot').height()+30+'px'});
 
 	$('.logo').data('size', 'big');
