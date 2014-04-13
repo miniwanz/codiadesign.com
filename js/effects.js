@@ -4,7 +4,8 @@ $(document).ready(function(){
 		location.reload(true);
 	});
 
-	$('#about').css({'marginTop': $('.pot img').height()+150+'px'});
+    var $header = $('.pot img');
+	$('#about').css({'marginTop': $header.height()+150+'px'});
 	$('.btn-survey').css({'marginTop': $('.pot').height()+20+'px'});
 
     new WOW().init();
