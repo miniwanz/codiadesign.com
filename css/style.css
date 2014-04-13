@@ -262,7 +262,6 @@
 }
 .pencil{
     clear: both;
-    float: right;
     z-index:1;
     max-width: 80px;
 }

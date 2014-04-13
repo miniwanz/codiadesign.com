@@ -57,7 +57,7 @@ $(document).ready(function(){
 			'transform': 'translateX(' + position*(-0.2) + 'px)'
 		});
 		$('.pencil').css({
-			'transform': 'translateX(' + position*0.30 + 'px)'
+			'transform': 'translateX(' + position*0.20 + 'px)'
 		});
 		$('.spoon').css({
 			'transform': 'translateX(' + position*(-0.8) + 'px)'
