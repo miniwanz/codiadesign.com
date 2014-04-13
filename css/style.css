@@ -254,7 +254,7 @@
 /*Header5*/
 .moleskineopen{
     padding: 0px 0px 40px 0px;
-    margin: -30px 0px 0px -15px;
+    margin: -70px 0px 0px -15px;
 }
 .moleskine{
     max-width: 400px;
@@ -265,7 +265,6 @@
     float: right;
     z-index:1;
     max-width: 80px;
-    margin-top: -80px;
 }
 .stain{
     position: absolute;
