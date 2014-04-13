@@ -4,10 +4,10 @@ $(document).ready(function(){
 		location.reload(true);
 	});
 
-	new WOW().init();
-
 	$('#about').css({'marginTop': $('.pot').height()+150+'px'});
 	$('.btn-survey').css({'marginTop': $('.pot').height()+20+'px'});
+
+    new WOW().init();
 
 	$('.logo').data('size', 'big');
 	$(window).scroll(function(){
