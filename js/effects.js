@@ -4,7 +4,7 @@ $(document).ready(function(){
 		location.reload(true);
 	});
 
-	$('#about').css({'marginTop': $('.pot').height()+150+'px'});
+	$('#about').css({'marginTop': $('.pot img').height()+150+'px'});
 	$('.btn-survey').css({'marginTop': $('.pot').height()+20+'px'});
 
     new WOW().init();
