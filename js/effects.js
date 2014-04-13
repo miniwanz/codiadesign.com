@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+    $(window).resize(function() {
+        location.reload(true);
+    });
+
     var $header = $('.pot img');
 	$('#about').css({'marginTop': $header.height()+150+'px'});
 	$('.btn-survey').css({'marginTop': $('.pot').height()+20+'px'});
@@ -116,9 +120,5 @@ $(document).ready(function(){
 	});
 
 	$('.screenshots a').nivoLightbox();
-
-    $(window).resize(function() {
-        location.reload(true);
-    });
 
 });
