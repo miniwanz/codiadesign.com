@@ -228,10 +228,15 @@
 .blurby-left p{
     clear: both;
 }
-.blurby-left span{
+.blurby-left li{
     color: #333333;
     font-family: 'Bitter-Regular';
-    font-size: 16px;
+    font-size: 18px;
+    padding: 2px;
+    list-style: none;
+}
+.blurby-left span{
+    padding-right: 15px;
 }
 .line-sep-red-left{
     border-bottom: 4px solid #F94803;
@@ -370,7 +375,7 @@
 }
 .btn-custom{
     padding: 30px 0 30px 0;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 140px;
     background: #F94803;
     color: white;
