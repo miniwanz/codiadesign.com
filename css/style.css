@@ -228,6 +228,11 @@
 .blurby-left p{
     clear: both;
 }
+.blurby-left span{
+    color: #F94803;
+    font-family: 'Bitter-Regular';
+    font-size: 16px;
+}
 .line-sep-red-left{
     border-bottom: 4px solid #F94803;
     width: 100px;
