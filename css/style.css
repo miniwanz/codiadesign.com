@@ -229,14 +229,28 @@
     clear: both;
 }
 .blurby-left li{
-    color: #333333;
     font-family: 'Bitter-Regular';
     font-size: 18px;
     padding: 2px;
     list-style: none;
 }
+.blurby-left a{
+    color: #333333;
+}
 .blurby-left span{
     padding-right: 15px;
+}
+.blurby-left a:hover{
+    color: #B0CDD7;
+    text-decoration: none;
+    -webkit-transition: color 0.1s linear;
+    -moz-transition: color 0.1s linear;
+    -ms-transition: color 0.1s linear;
+    -o-transition: color 0.1s linear;
+    transition: color 0.1s linear;
+}
+.listor{
+    padding-left: 36px;
 }
 .line-sep-red-left{
     border-bottom: 4px solid #F94803;
