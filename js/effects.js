@@ -9,7 +9,7 @@ $(document).ready(function(){
         var projectShot = $(".project").width()*1.25465;
 
         $("#about").css({"marginTop": headerHeight+150+"px"});
-        $(".btn-survey").css({"marginTop": headerHeight+40+"px"});
+        $(".btn-survey").css({"marginTop": headerHeight+30+"px"});
         $(".back.flip, .project").css({height: projectShot});
 
         $(".logo").data("size", "big");
