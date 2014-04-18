@@ -95,14 +95,14 @@
 }
 .opening{
     position: absolute;
-    top: 46%;
+    top: 50%;
     font-family: 'Bitter-Regular';
     text-align: center;
 }
 .opening h7{
-    font-size: 55px;
+    font-size: 65px;
     font-family: 'Bitter-Bold';
-    border-bottom: 4px solid #333;
+    line-height: 45px;
     margin: 0;
     padding: 0;
 }
