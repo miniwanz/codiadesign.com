@@ -189,15 +189,6 @@
     padding: 13px 20px 2px 20px;
     margin: 20px -10px 0px -10px;
 }
-.step.hover{
-    background-color: #B0CDD7;
-    color: white;
-    -webkit-transition: background 0.3s linear;
-    -moz-transition: background 0.3s linear;
-    -ms-transition: background 0.3s linear;
-    -o-transition: background 0.3s linear;
-    transition: background 0.3s linear;
-}
 .step p{
     font-size: 13px;
     padding-top: 8px;
