@@ -89,20 +89,18 @@
 }
 
 /*Header1*/
+.coffeehead{
+    width: 80%;
+    padding-top: 3%;
+}
 .opening{
     position: absolute;
-    top: 33%;
+    top: 45%;
     font-family: 'Bitter-Regular';
     text-align: center;
 }
-.opening h6{
-    font-size: 8em;
-    padding: 0;
-    margin: 0;
-    line-height: 0.9em;
-}
 .opening h7{
-    font-size: 2em;
+    font-size: 55px;
     font-family: 'Bitter-Bold';
     border-bottom: 4px solid #333;
     margin: 0;
@@ -110,7 +108,7 @@
 }
 .opening h8{
     line-height: 10px;
-    font-size: 20px;
+    font-size: 26px;
 }
 .drop{
     position: fixed;
