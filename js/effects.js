@@ -55,8 +55,9 @@ $(document).ready(function(){
             $cup.css({
                 "transform": "rotate(" + ($body.scrollTop() / bodyHeight * 600) + "deg)"
             });
-            $(".pencil").css({
-                "transform": "translateX(" + position*(0.2) + "px)"
+
+            $(".spoon").css({
+                "transform": "translateY(" + position*(0.8) + "px)"
             });
 
             if (dropTop + s >= cupTop*1.32 + dropHeight) {
@@ -68,8 +69,6 @@ $(document).ready(function(){
                     $drop.removeClass("hidden");
                 }
             }
-
-            $(".stain").css("opacity", percent*0.5);
 
             var $btnSurvey = $(".btn-survey");
             if($(document).scrollTop() >= 10){
@@ -89,13 +88,6 @@ $(document).ready(function(){
                 });
             }
         });
-
-        $(".step").hover(
-            function(){
-                $(this).addClass("hover");},
-            function(){
-                $(this).removeClass("hover");
-            });
 
         $(".team").owlCarousel({
             navigation: true,
@@ -126,5 +118,9 @@ $(document).ready(function(){
         });
 
     }
+
+    $(".contact-form").submit(function(){
+
+    });
 
 });
