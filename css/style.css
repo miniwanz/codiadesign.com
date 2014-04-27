@@ -159,7 +159,7 @@
 }
 .blurby-right{
     text-align: justify;
-    margin: 100px 100px 0px 30px;
+    margin: 60px 100px 0px 30px;
 }
 .blurby-right h2{
     font-family: 'Bitter-Regular';
@@ -247,7 +247,7 @@
     margin: 2px 0px 15px 0px;
 }
 .team{
-    margin: 60px 0px 0px 20px;
+    margin: 110px 0px 0px 20px;
     font-family: 'Bitter-Regular';
     width: 100%;
 }
@@ -365,7 +365,7 @@
 
 /*Header5*/
 .moleskine{
-    padding: 50px 0px 20px 65px;
+    padding: 50px 0px 150px 65px;
     max-width: 380px;
 }
 .pencil{
