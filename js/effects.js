@@ -91,7 +91,7 @@ $(document).ready(function(){
             }else{
                 dest=$(this.hash).offset().top;
             }
-            $("html,body").animate({scrollTop:dest+(-50)+"px"}, 2000,"swing");
+            $("html,body").animate({scrollTop:dest+(-50)+"px"}, 200,"swing");
         });
 
         new WOW().init();
