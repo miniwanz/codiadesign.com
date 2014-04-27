@@ -110,13 +110,6 @@
     line-height: 10px;
     font-size: 26px;
 }
-.drop{
-    position: fixed;
-    z-index: 2;
-    width: 5%;
-    margin-left: 3%;
-    margin-top: -3%;
-}
 .btn:hover{
     color: white;
 }
@@ -237,9 +230,6 @@
     -ms-transition: color 0.1s linear;
     -o-transition: color 0.1s linear;
     transition: color 0.1s linear;
-}
-.listor{
-    padding-left: 36px;
 }
 .line-sep-red-left{
     border-bottom: 4px solid #F94803;
