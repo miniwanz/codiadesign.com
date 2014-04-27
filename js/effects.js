@@ -6,11 +6,14 @@ $(document).ready(function(){
     function handleResize(){
 
         var headerHeight = $(document).width()*0.38;
-        var projectShot = $(".project").width()*1.25465;
+        var projectHeight = $(".shot").height();
+        var projectWidth = $(".shot").width();
 
         $("#about").css({"marginTop": headerHeight+150+"px"});
         $(".btn-survey").css({"marginTop": headerHeight+30+"px"});
-        $(".back.flip, .project").css({height: projectShot});
+        $(".back.flip, .project").css({height: projectHeight});
+        $(".back, .project").css({width: projectWidth});
+
 
         $(".logo").data("size", "big");
         $(window).scroll(function(){

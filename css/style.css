@@ -288,6 +288,7 @@
 }
 .project {
     width:100%;
+    margin-top: 40px;
 }
 .project-container {
     cursor: pointer;
