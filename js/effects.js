@@ -5,7 +5,7 @@ $(document).ready(function(){
 
     function handleResize(){
 
-        var headerHeight = $(document).width()*0.4;
+        var headerHeight = $(document).width()*0.38;
         var projectShot = $(".project").width()*1.25465;
 
         $("#about").css({"marginTop": headerHeight+150+"px"});
@@ -31,14 +31,11 @@ $(document).ready(function(){
 
         var $pot = $(".pot"),
             $cup = $(".cup"),
-            $drop = $(".drop"),
             $body = $(document.body),
             bodyHeight = $body.height();
 
         var potStart = $pot.offset().top - $pot.position().top,
             potEnd = $(".team").offset().top - $pot.height(),
-            dropTop = $drop.offset().top,
-            dropHeight = $drop.height(),
             cupTop = $cup.offset().top;
 
         $(window).scroll(function () {
@@ -59,16 +56,6 @@ $(document).ready(function(){
             $(".spoon").css({
                 "transform": "translateY(" + position*(0.8) + "px)"
             });
-
-            if (dropTop + s >= cupTop*1.32 + dropHeight) {
-                if (!$drop.hasClass("hidden")) {
-                    $drop.addClass("hidden");
-                }
-            } else {
-                if ($drop.hasClass("hidden")) {
-                    $drop.removeClass("hidden");
-                }
-            }
 
             var $btnSurvey = $(".btn-survey");
             if($(document).scrollTop() >= 10){

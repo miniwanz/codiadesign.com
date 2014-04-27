@@ -100,7 +100,7 @@
     text-align: center;
 }
 .opening h7{
-    font-size: 65px;
+    font-size: 80px;
     font-family: 'Bitter-Bold';
     line-height: 45px;
     margin: 0;
@@ -152,8 +152,6 @@
 
 /*Header2*/
 .cup{
-    width: 80%;
-    padding-top: 65px;
     max-width: 260px;
 }
 .about{
@@ -161,7 +159,7 @@
 }
 .blurby-right{
     text-align: justify;
-    margin: 50px 0px 0px 0px;
+    margin: 100px 100px 0px 30px;
 }
 .blurby-right h2{
     font-family: 'Bitter-Regular';
@@ -170,6 +168,7 @@
 }
 .blurby-right p{
     clear: both;
+    margin-bottom: 30px;
 }
 .line-sep-red-right{
     border-bottom: 4px solid #F94803;
@@ -199,7 +198,7 @@
 }
 .spoon{
     width: 90%;
-    margin-top: 60px;
+    margin-top: 20px;
     max-width: 200px;
     overflow: hidden;
 }
@@ -207,7 +206,7 @@
 /*Header3*/
 .blurby-left{
     text-align: justify;
-    margin: 60px 0px 0px 0px;
+    margin: 100px 0px 0px 100px;
 }
 .blurby-left h2{
     font-family: 'Bitter-Regular';
@@ -217,16 +216,16 @@
 .blurby-left p{
     clear: both;
 }
-.blurby-left li{
+.blurby-right li{
     font-family: 'Bitter-Regular';
     font-size: 18px;
     padding: 2px;
     list-style: none;
 }
-.blurby-left a{
+.blurby-right a{
     color: #333333;
 }
-.blurby-left span{
+.blurby-right span{
     padding-right: 15px;
 }
 .blurby-left a:hover{
@@ -248,6 +247,7 @@
     margin: 2px 0px 15px 0px;
 }
 .team{
+    margin: 60px 0px 0px 20px;
     font-family: 'Bitter-Regular';
     width: 100%;
 }
@@ -263,7 +263,7 @@
     right: 0;
     top: 0;
     width: 20%;
-    margin: 37% 38% 0px 0px;
+    margin: 60% 10% 0px 0px;
 }
 .arrow{
     width: 14%;
@@ -271,17 +271,18 @@
 }
 .pic{
     position: absolute;
-    left: 0;
-    margin: 10% 0px 0px 38%;
-    width: 14%;
+    right: 0;
+    margin: 13% 13% 0px 0px;
+    width: 30%;
 }
 .profile p{
-    font-size: 12px;
+    font-size: 11px;
     position: absolute;
     text-align: justify;
-    width: 37%;
+    width: 38%;
+    bottom: 0;
     left: 0;
-    margin: 26% 0px 0px 15%;
+    margin: 0px 0px 13% 18%;
 }
 
 /*Header4*/
@@ -373,11 +374,14 @@
     padding-top: 80px;
 }
 .btn-custom{
-    padding: 30px 0 30px 0;
-    margin-top: 60px;
-    margin-bottom: 140px;
+    margin-top: 30px;
+    padding: 15px 0px 10px 0px;
+    margin-bottom: 180px;
     background: #F94803;
     color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 /*Footer*/
