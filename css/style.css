@@ -148,7 +148,11 @@
 
 /*Header2*/
 .cup{
-    max-width: 260px;
+    max-width: 200px;
+}
+.spoon{
+    max-width: 160px;
+    overflow: hidden;
 }
 .about{
     padding: 40px 0px 40px 0px;
@@ -191,10 +195,6 @@
 .search{
     max-width: 35px;
     width: 20%;
-}
-.spoon{
-    max-width: 200px;
-    overflow: hidden;
 }
 
 /*Header3*/
@@ -365,7 +365,7 @@
 }
 .btn-custom{
     margin-top: 30px;
-    padding: 15px 0px 10px 0px;
+    padding: 15px 20px 10px 20px;
     margin-bottom: 180px;
     background: #F94803;
     color: white;
@@ -424,3 +424,5 @@
 .form-control{
     margin-top: 10px;
 }
+
+
