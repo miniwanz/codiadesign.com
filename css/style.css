@@ -118,7 +118,7 @@
     margin-top: -3%;
 }
 .btn:hover{
-    color: rgba(0,0,0,0.7)
+    color: rgba(255,255,255,0.7)
 }
 .btn-survey{
     position: fixed;
