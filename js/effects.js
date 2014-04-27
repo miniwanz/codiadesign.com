@@ -54,7 +54,7 @@ $(document).ready(function(){
             });
 
             $(".spoon").css({
-                "transform": "translateY(" + position*(0.8) + "px)"
+                "transform": "translateY(" + position*(0.5) + "px)"
             });
 
             var $btnSurvey = $(".btn-survey");
