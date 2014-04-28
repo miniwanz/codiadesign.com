@@ -406,9 +406,6 @@
     margin-top: 10px;
 }
 @media screen and (max-width: 29.999em){
-body{
-    overflow-x: hidden;
-}
 .blurby-right{
     margin: 0px 15px 0px 15px;
 }
@@ -425,6 +422,7 @@ body{
 .cup{
     width: 80%;
     margin: 10px;
+    display: none;
 }
 .spoon{
     display: none;
