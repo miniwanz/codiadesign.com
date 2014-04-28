@@ -177,27 +177,6 @@
     float: right;
     margin: 2px 0px 15px 0px;
 }
-.steps{
-    padding: 10px 0px 20px 0px;
-    margin: 0px -5px 100px -5px;
-}
-.step{
-    background-color: white;
-    border-radius: 5px;
-    padding: 13px 20px 2px 20px;
-    margin: 20px -10px 0px -10px;
-}
-.step p{
-    font-size: 13px;
-    padding-top: 8px;
-    font-family: 'Bitter-Regular';
-    font-weight: 200;
-}
-.search{
-    max-width: 35px;
-    width: 20%;
-}
-
 /*Header3*/
 .blurby-left{
     text-align: justify;
