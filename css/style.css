@@ -462,6 +462,10 @@
 .moleskine{
     padding: 0px 0px 50px 0px;
 }
+.btn-custom{
+    margin-top: 0px;
+    margin-bottom: 150px;
+}
 }
 @media screen and (max-width: 850px){
 .back, .front {
@@ -538,5 +542,9 @@
 }
 .moleskine{
     padding: 0px 0px 50px 0px;
+}
+.btn-custom{
+    margin-top: 0px;
+    margin-bottom: 150px;
 }
 }
