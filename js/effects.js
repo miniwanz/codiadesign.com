@@ -101,7 +101,7 @@ $(document).ready(function(){
             $("html,body").animate({scrollTop:dest+(-50)+"px"}, 500,"swing");
         });
 
-        new WOW().init();
+        new WOW().init({mobile: false});
         $(".screenshots a").nivoLightbox();
 
         $(".project-container").hover(
@@ -112,9 +112,5 @@ $(document).ready(function(){
         });
 
     }
-
-    $(".contact-form").submit(function(){
-
-    });
 
 });

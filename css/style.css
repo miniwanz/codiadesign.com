@@ -528,25 +528,10 @@
     display: none;
 }
 .cup{
-    margin: 60px;
-}
-.spoon{
-    float: right;
-}
-.team{
-    margin: 50px 0px 50px 0px;
+    margin: 30px 0px 30px 60px;
 }
 .project{
     max-height: 380px;
 }
-.moleskine{
-    padding: 0px 0px 50px 0px;
-}
-.btn-custom{
-    margin-top: 0px;
-    margin-bottom: 150px;
-}
-.shot{
-    width: 80%;
-}
+
 }
