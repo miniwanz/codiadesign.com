@@ -464,7 +464,13 @@
     padding: 0px 0px 50px 0px;
 }
 .pencil{
-    width: 70%;
+    height: 70%;
+}
+.link{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 60% 10% 0px 0px;
 }
 .btn-custom{
     margin-top: 0px;
