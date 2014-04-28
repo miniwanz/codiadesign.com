@@ -6,11 +6,13 @@ $(document).ready(function(){
     function handleResize(){
 
         var headerHeight = $(document).width()*0.38;
-        var projectShot = $(".project").width()*1.25465;
+        var projectShot = $(".project img").height();
+        var projectShot2 = $(".project img").width();
 
         $("#about").css({"marginTop": headerHeight+150+"px"});
         $(".btn-survey").css({"marginTop": headerHeight+30+"px"});
         $(".back.flip, .project").css({height: projectShot});
+        $(".back.flip, .project").css({width: projectShot2});
 
 
         $(".logo").data("size", "big");
