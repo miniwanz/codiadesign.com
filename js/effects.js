@@ -1,3 +1,5 @@
+var projectHeight = $(".shot").height();
+
 $(document).ready(function(){
 
     handleResize();
