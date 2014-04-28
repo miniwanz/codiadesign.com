@@ -7,12 +7,10 @@ $(document).ready(function(){
 
         var headerHeight = $(document).width()*0.38;
         var projectHeight = $(".shot").height();
-        var projectWidth = $(".shot").width();
 
         $("#about").css({"marginTop": headerHeight+150+"px"});
         $(".btn-survey").css({"marginTop": headerHeight+30+"px"});
         $(".back.flip, .project").css({height: projectHeight});
-        $(".back.flip, .project").css({width: projectWidth});
 
 
         $(".logo").data("size", "big");
