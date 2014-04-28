@@ -160,7 +160,7 @@
 }
 .blurby-right{
     text-align: justify;
-    margin: 80px 12% 0px 30px;
+    margin: 85px 12% 0px 30px;
 }
 .blurby-right h2{
     font-family: 'Bitter-Regular';
@@ -191,7 +191,7 @@
 }
 .blurby-left{
     text-align: justify;
-    margin: 80px 0px 0px 12%;
+    margin: 85px 0px 0px 12%;
 }
 .blurby-left h2{
     font-family: 'Bitter-Regular';
@@ -217,7 +217,7 @@
     margin: 2px 0px 15px 0px;
 }
 .team{
-    margin: 150px 0px 0px 20px;
+    margin: 140px 0px 0px 20px;
     font-family: 'Bitter-Regular';
     width: 100%;
 }
