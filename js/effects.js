@@ -101,11 +101,7 @@ $(document).ready(function(){
             $("html,body").animate({scrollTop:dest+(-50)+"px"}, 500,"swing");
         });
 
-        var wow = new WOW({
-            mobile: false
-        });
-
-        wow.init();
+        new WOW().init();
         $(".screenshots a").nivoLightbox();
 
         $(".project-container").hover(
