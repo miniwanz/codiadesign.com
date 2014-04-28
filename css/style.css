@@ -253,7 +253,6 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 20%;
     margin: 60% 10% 0px 0px;
 }
 .arrow{
@@ -426,5 +425,19 @@
 .form-control{
     margin-top: 10px;
 }
-
-
+@media screen and (min-width: 30em){
+.blurby-right{
+    margin: 100px 0px 0px 0px;
+}
+.btn-survey{
+    display: none;
+}
+}
+@media screen and (min-width: 300px){
+.blurby-right{
+    margin: 100px 0px 0px 0px;
+}
+.btn-survey{
+    display: none;
+}
+}
