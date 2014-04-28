@@ -464,7 +464,7 @@
     padding: 0px 0px 50px 0px;
 }
 .pencil{
-    height: 70%;
+    height: 80%;
 }
 .link{
     position: absolute;
@@ -478,6 +478,9 @@
 }
 .profile p{
     display: none;
+}
+.social{
+    width: 25px;
 }
 }
 @media screen and (max-width: 850px){
