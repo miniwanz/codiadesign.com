@@ -420,9 +420,7 @@
     margin-top: 40px;
 }
 .cup{
-    width: 80%;
-    margin: 10px;
-    display: none;
+    width: 50%;
 }
 .spoon{
     display: none;
@@ -438,7 +436,7 @@
     margin: 50px 0px 50px 0px;
 }
 .project{
-    max-height: 380px;
+    max-height: 340px;
 }
 .moleskine{
     width: 80%;
