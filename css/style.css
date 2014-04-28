@@ -451,7 +451,7 @@
     display: none;
 }
 .opening{
-    padding: 100px 10% 0px 0px;
+    padding: 100px 20% 0px 0px;
 }
 .team{
     margin: 50px 0px 50px 0px;
@@ -460,6 +460,7 @@
     max-height: 400px;
 }
 .moleskine{
+    width: 80%;
     padding: 0px 0px 50px 0px;
 }
 .btn-custom{
