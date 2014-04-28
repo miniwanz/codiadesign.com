@@ -1,3 +1,6 @@
+        var projectShot = $(".project img").height();
+        var projectShot2 = $(".project img").width();
+
 $(document).ready(function(){
 
     handleResize();
@@ -6,8 +9,6 @@ $(document).ready(function(){
     function handleResize(){
 
         var headerHeight = $(document).width()*0.38;
-        var projectShot = $(".project img").height();
-        var projectShot2 = $(".project img").width();
 
         $("#about").css({"marginTop": headerHeight+150+"px"});
         $(".btn-survey").css({"marginTop": headerHeight+30+"px"});
