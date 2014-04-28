@@ -460,7 +460,7 @@
     max-height: 400px;
 }
 }
-@media screen and (max-width: 50em){
+@media screen and (max-width: 850px){
 .back, .front {
     position: absolute;
     border-radius: 5px;
