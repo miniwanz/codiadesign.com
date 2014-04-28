@@ -459,6 +459,9 @@
 .project{
     max-height: 400px;
 }
+.moleskine{
+    padding: 0px 0px 50px 0px;
+}
 }
 @media screen and (max-width: 850px){
 .back, .front {
@@ -512,10 +515,28 @@
     -webkit-transform: none;
     -moz-transform: none;
 }
+.blurby-right{
+    margin: 0px 0px 0px 0px;
+}
+.blurby-left{
+    margin: 0px 0px 0px 0px;
+}
+.btn-survey{
+    display: none;
+}
+.cup{
+    margin: 60px;
+}
+.spoon{
+    float: right;
+}
 .team{
     margin: 40px 0px 0px 0px;
 }
 .project{
     max-height: 400px;
+}
+.moleskine{
+    padding: 0px 0px 50px 0px;
 }
 }
