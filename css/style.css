@@ -442,7 +442,8 @@
     margin-top: 40px;
 }
 .cup{
-    margin: 60px;
+    width: 80%;
+    margin: 10px;
 }
 .spoon{
     display: none;
@@ -488,7 +489,7 @@
     width: 80%;
 }
 }
-@media screen and (min-width: 30em; max-width: 850px){
+@media screen and (max-width: 850px){
 .back, .front {
     position: absolute;
     border-radius: 5px;
