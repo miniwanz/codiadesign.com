@@ -445,7 +445,7 @@
     margin: 60px;
 }
 .spoon{
-    float: right;
+    display: none;
 }
 .coffeehead{
     display: none;
@@ -469,6 +469,9 @@
 .btn-custom{
     margin-top: 0px;
     margin-bottom: 150px;
+}
+.profile p{
+    display: none;
 }
 }
 @media screen and (max-width: 850px){
