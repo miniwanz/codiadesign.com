@@ -266,7 +266,7 @@
 }
 .project {
     width:100%;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 .project-container {
     cursor: pointer;
