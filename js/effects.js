@@ -12,7 +12,7 @@ $(document).ready(function(){
         $("#about").css({"marginTop": headerHeight+150+"px"});
         $(".btn-survey").css({"marginTop": headerHeight+30+"px"});
         $(".back.flip, .project").css({height: projectHeight});
-        $(".back, .project").css({width: projectWidth});
+        $(".back.flip, .project").css({width: projectWidth});
 
 
         $(".logo").data("size", "big");
