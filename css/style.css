@@ -177,19 +177,6 @@
     float: right;
     margin: 2px 0px 15px 0px;
 }
-/*Header3*/
-.blurby-left{
-    text-align: justify;
-    margin: 100px 0px 0px 12%;
-}
-.blurby-left h2{
-    font-family: 'Bitter-Regular';
-    font-weight: 800;
-    text-align: left;
-}
-.blurby-left p{
-    clear: both;
-}
 .blurby-right li{
     font-family: 'Bitter-Regular';
     font-size: 18px;
@@ -201,6 +188,18 @@
 }
 .blurby-right span{
     padding-right: 15px;
+}
+.blurby-left{
+    text-align: justify;
+    margin: 100px 0px 0px 12%;
+}
+.blurby-left h2{
+    font-family: 'Bitter-Regular';
+    font-weight: 800;
+    text-align: left;
+}
+.blurby-left p{
+    clear: both;
 }
 .blurby-left a:hover{
     color: #B0CDD7;
@@ -407,6 +406,9 @@
     margin-top: 10px;
 }
 @media screen and (max-width: 29.999em){
+body{
+    overflow-x: hidden;
+}
 .blurby-right{
     margin: 0px 15px 0px 15px;
 }
