@@ -436,9 +436,6 @@
 .btn-survey{
     display: none;
 }
-.team{
-    margin: 50px auto;
-}
 .mail{
     width: 50%;
     margin-top: 40px;
@@ -451,8 +448,5 @@
 }
 .opening{
     padding-right: 10%;
-}
-.coffeehead{
-    width: 200%;
 }
 }
