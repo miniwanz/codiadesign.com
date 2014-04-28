@@ -95,6 +95,7 @@
 }
 .opening{
     position: absolute;
+    right: 0;
     top: 52%;
     font-family: 'Bitter-Regular';
     text-align: center;
@@ -159,7 +160,7 @@
 }
 .blurby-right{
     text-align: justify;
-    margin: 100px 15% 0px 30px;
+    margin: 100px 10% 0px 30px;
 }
 .blurby-right h2{
     font-family: 'Bitter-Regular';
@@ -200,7 +201,7 @@
 /*Header3*/
 .blurby-left{
     text-align: justify;
-    margin: 100px 0px 0px 15%;
+    margin: 100px 0px 0px 10%;
 }
 .blurby-left h2{
     font-family: 'Bitter-Regular';
@@ -425,25 +426,33 @@
 .form-control{
     margin-top: 10px;
 }
-@media screen and (min-width: 30em){
+@media screen and (max-width: 30em){
 .blurby-right{
-    margin: 100px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 .blurby-left{
-    margin: 100px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 .btn-survey{
     display: none;
 }
+.team{
+    margin: 50px auto;
 }
-@media screen and (min-width: 300px){
-.blurby-right{
-    margin: 100px 0px 0px 0px;
+.mail{
+    width: 50%;
+    margin-top: 40px;
 }
-.blurby-left{
-    margin: 100px 0px 0px 0px;
+.cup{
+    margin: 60px;
 }
-.btn-survey{
-    display: none;
+.spoon{
+    float: right;
+}
+.opening{
+    padding-right: 10%;
+}
+.coffeehead{
+    width: 200%;
 }
 }
