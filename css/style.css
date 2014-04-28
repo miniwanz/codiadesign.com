@@ -160,7 +160,7 @@
 }
 .blurby-right{
     text-align: justify;
-    margin: 100px 10% 0px 30px;
+    margin: 100px 12% 0px 30px;
 }
 .blurby-right h2{
     font-family: 'Bitter-Regular';
@@ -201,7 +201,7 @@
 /*Header3*/
 .blurby-left{
     text-align: justify;
-    margin: 100px 0px 0px 10%;
+    margin: 100px 0px 0px 12%;
 }
 .blurby-left h2{
     font-family: 'Bitter-Regular';
@@ -454,3 +454,4 @@
     margin: 40px 0px 0px 0px;
 }
 }
+@media screen and (max-width: 50em){}
