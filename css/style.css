@@ -483,6 +483,9 @@
 .social{
     width: 25px;
 }
+.shot{
+    width: 80%;
+}
 }
 @media screen and (max-width: 850px){
 .back, .front {
@@ -563,5 +566,8 @@
 .btn-custom{
     margin-top: 0px;
     margin-bottom: 150px;
+}
+.shot{
+    width: 80%;
 }
 }
