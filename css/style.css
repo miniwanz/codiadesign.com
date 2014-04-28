@@ -427,7 +427,7 @@
 .form-control{
     margin-top: 10px;
 }
-@media screen and (max-width: 30em){
+@media screen and (max-width: 40em){
 .blurby-right{
     margin: 0px 0px 0px 0px;
 }
@@ -447,11 +447,75 @@
 .spoon{
     float: right;
 }
+.coffeehead{
+    display: none;
+}
 .opening{
-    padding-right: 10%;
+    padding: 100px 10% 0px 0px;
 }
 .team{
     margin: 40px 0px 0px 0px;
 }
+.project{
+    max-height: 400px;
 }
-@media screen and (max-width: 50em){}
+}
+@media screen and (max-width: 50em){
+.back, .front {
+    position: absolute;
+    border-radius: 5px;
+    width: 100%;
+}
+.front {
+    overflow:hidden;
+    z-index:900;
+    -webkit-transform: none;
+    -webkit-transform-style: none;
+    -webkit-backface-visibility: none;
+
+    -moz-transform: none;
+    -moz-transform-style: none;
+    -moz-backface-visibility: none;
+
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.active .front {
+    -webkit-transform: none;
+    -moz-transform: none;
+}
+.back {
+    width: 100%;
+    z-index: 800;
+    -webkit-transform: none;
+    -webkit-transform-style: none;
+    -webkit-backface-visibility: none;
+
+    -moz-transform: none;
+    -moz-transform-style: none;
+    -moz-backface-visibility: none;
+
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.back.flip{
+    display: none;
+}
+.active .back {
+    z-index: 1000;
+    -webkit-transform: none;
+    -moz-transform: none;
+}
+.team{
+    margin: 40px 0px 0px 0px;
+}
+.project{
+    max-height: 400px;
+}
+}
